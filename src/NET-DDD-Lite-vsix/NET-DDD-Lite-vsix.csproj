@@ -1,18 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
   </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.10.4065" PrivateAssets="all" />
+    <Compile Remove="Templates\**\*.cs" />
+    <EmbeddedResource Remove="Templates\**\*.*" />
+    <None Include="Templates\**\*.*">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </None>
   </ItemGroup>
+
   <ItemGroup>
-    <Content Include="source.extension.vsixmanifest">
+    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.11.414" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="source.extension.vsixmanifest">
       <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Templates\**\*.*">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
+    </None>
   </ItemGroup>
 </Project>

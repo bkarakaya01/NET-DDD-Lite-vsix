@@ -1,6 +1,16 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
-  <TemplateData><Name>Application</Name><ProjectType>CSharp</ProjectType><DefaultName>$safeprojectname$</DefaultName></TemplateData>
+  <TemplateData>
+    <Name>Application</Name>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>$safeprojectname$</DefaultName>
+  </TemplateData>
   <TemplateContent>
-    <Project File="Application.csproj" ReplaceParameters="true" />
+    <Project File="Application.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Abstractions\IUnitOfWork.cs">Content/Abstractions/IUnitOfWork.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Configuration\ServiceCollectionExtensions.cs">Content/Configuration/ServiceCollectionExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Features\Products\Commands\CreateProduct\CreateProductCommand.cs">Content/Features/Products/Commands/CreateProduct/CreateProductCommand.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Features\Products\Commands\AddProductImage\AddProductImageCommand.cs">Content/Features/Products/Commands/AddProductImage/AddProductImageCommand.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Features\Products\Queries\GetProduct\GetProductQuery.cs">Content/Features/Products/Queries/GetProduct/GetProductQuery.cs</ProjectItem>
+    </Project>
   </TemplateContent>
 </VSTemplate>

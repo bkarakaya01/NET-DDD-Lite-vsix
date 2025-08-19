@@ -1,4 +1,16 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
-  <TemplateData><Name>Infrastructure</Name><ProjectType>CSharp</ProjectType><DefaultName>$safeprojectname$</DefaultName></TemplateData>
-  <TemplateContent><Project File="Infrastructure.csproj" ReplaceParameters="true" /></TemplateContent>
+  <TemplateData>
+    <Name>Infrastructure</Name>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>$safeprojectname$</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="Infrastructure.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Persistence\YourAppDbContext.cs">Content/Persistence/YourAppDbContext.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Persistence\Configurations\ProductConfiguration.cs">Content/Persistence/Configurations/ProductConfiguration.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Persistence\Repositories\ProductRepository.cs">Content/Persistence/Repositories/ProductRepository.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Configuration\ServiceCollectionExtensions.cs">Content/Configuration/ServiceCollectionExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup\DbInitializer.cs">Content/Startup/DbInitializer.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
 </VSTemplate>

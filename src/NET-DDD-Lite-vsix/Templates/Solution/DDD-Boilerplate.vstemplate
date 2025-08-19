@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
     <Name>DDD Boilerplate (Clean-ish)</Name>
-    <Description>DDD solution with Domain, Application, Infrastructure, Api and Tests projects.</Description>
+    <Description>DDD solution with Domain, Application, Infrastructure, Api and Tests</Description>
     <ProjectType>CSharp</ProjectType>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>$safeprojectname$</DefaultName>

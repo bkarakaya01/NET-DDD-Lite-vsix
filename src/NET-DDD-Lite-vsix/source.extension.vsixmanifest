@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="NET-DDD-Lite-vsix" Version="1.0.0" Language="en-US" Publisher="YourName" />
+    <Identity Id="NET-DDD-Lite-vsix" Version="1.1.0" Language="en-US" Publisher="YourName" />
     <DisplayName>DDD Boilerplate (Clean-ish)</DisplayName>
-    <Description xml:space="preserve">Scaffold a DDD solution with Domain/Application/Infrastructure/Api (+Tests)</Description>
+    <Description xml:space="preserve">Scaffold a DDD solution with Product/ProductImage aggregate, EF Core, provider selection and seeding.</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)" />
