@@ -1,0 +1,1 @@
+namespace $rootnamespace$.Common; public abstract class ValueObject { protected abstract System.Collections.Generic.IEnumerable<object?> GetEqualityComponents(); }

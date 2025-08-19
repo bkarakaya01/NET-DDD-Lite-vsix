@@ -1,0 +1,8 @@
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData><Name>Domain</Name><ProjectType>CSharp</ProjectType><DefaultName>$safeprojectname$</DefaultName></TemplateData>
+  <TemplateContent>
+    <Project File="Domain.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Common\ValueObject.cs">Content/ValueObject.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
