@@ -1,9 +1,0 @@
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\bin\Release\NET-DDD-Lite-vsix.pdb
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.csproj.AssemblyReference.cache
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.AssemblyInfoInputs.cache
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.AssemblyInfo.cs
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.csproj.CoreCompileInputs.cache
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.sourcelink.json
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.dll
-C:\Users\user\Projects\Nugets\NET-DDD-Lite-vsix\src\NET-DDD-Lite-vsix\obj\Release\NET-DDD-Lite-vsix.pdb
