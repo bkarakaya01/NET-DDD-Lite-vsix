@@ -1,0 +1,15 @@
+# Build outputs
+bin/
+obj/
+
+# User-specific
+.vs/
+*.user
+*.suo
+
+# Paketler
+*.nupkg
+*.snupkg
+
+# VSIX build outputs
+*.vsix
